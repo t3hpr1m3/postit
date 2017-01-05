@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(http-equiv="Content-Language" content="en")
+    meta(name="viewport" content="width=device-width")
+  body
+    div#react-view!= markup
+    link(media="all" rel="stylesheet" href="/assets/app.css")
+    script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+    script(type="text/javascript" src="/assets/vendor.bundle.js")
+    script(type="text/javascript" src="/assets/app.js")
